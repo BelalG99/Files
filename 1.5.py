@@ -5,6 +5,6 @@ num = int(input("Enter the number for which the multiplication table should be s
 first_term = int(input ("Enter the first integer: "))
 last_term = int(input ("Enter the last integer: "))
 
-for i in range(first_term, last_term):
+for i in range(first_term, last_term + 1):
     result = num * i
     print (f"{i} x {num} = {result}")
